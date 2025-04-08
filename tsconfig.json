@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "preserveConstEnums": true,
+      "strictNullChecks": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "target": "es2022",
+      "module": "esnext",
+      "outDir": ".build",
+      "moduleResolution": "node",
+      "lib": ["es2015"],
+      "rootDir": ".",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+      }
+    }
+}
